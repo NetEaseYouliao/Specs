@@ -8,11 +8,11 @@
   s.homepage     = 'https://youliao.163yun.com/'
   s.authors      = { 'aron' => 'sunweirong32@163.com' }
   s.license      = { :type => 'Copyright', :text => '©2017 youliao.163yun.com' }
-  s.source       = { :git => "https://github.com/NetEaseYouliao/NewsFeedsSDK.git", :tag => s.version }
+  s.source       = { :http => "https://github.com/NetEaseYouliao/NewsFeedsSDK/raw/master/NewsFeedsSDK/NewsFeedsSDK-#{s.version}.zip" }
   s.requires_arc = true
   s.platform     = :ios
-  s.vendored_frameworks ='NewsFeedsSDK/NewsFeedsSDK.framework'
-  s.resource     = 'NewsFeedsSDK/NFBundle.bundle'
+  s.vendored_frameworks ='NewsFeedsSDK.framework'
+  s.resource     = 'NFBundle.bundle'
 
   s.ios.deployment_target = "9.0"
 
