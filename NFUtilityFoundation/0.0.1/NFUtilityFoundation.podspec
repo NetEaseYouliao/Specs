@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.vendored_frameworks ='NFUtilityFoundation.framework'
 
-  s.deployment_target = "8.0"
+  s.ios.deployment_target = "8.0"
 
   s.frameworks = 'UIKit', 'CoreFoundation'
 end
